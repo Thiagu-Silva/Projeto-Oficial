@@ -6,4 +6,5 @@ $('.banner').slick({
     adaptiveHeight: true,
     autoplay: true,
     autoplayspeed: 2500
-  });
+});
+

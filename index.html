@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./CSS/Normalize.css">
     <link rel="stylesheet" href="./CSS/Main.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+    <link rel="icon" href="./IMG/wowhead.jpg">
     <title>World Of the Warcraft</title>
 
 </head>
@@ -22,12 +22,19 @@
     </header>
     <header class="paginas">
         <nav>
-            <a href="">Home</a>
-            <a href="">Download</a>
+            <a href="./index.html">Home</a>
+            <a href="./download.html">Download</a>
             <a href="">Classes</a>
             <a href="">Forum</a>
             <a href="">Cadastre-se</a>
-
+            <select onchange="location.href=this.value">
+                <option value="#"> Cinematics </option>
+                <option value="https://www.youtube.com/watch?v=vlVSJ0AvZe0&ab_channel=WorldofWarcraft">WOW Classic</option>
+                <option value="https://www.youtube.com/watch?v=IBHL_-biMrQ&ab_channel=WorldofWarcraft">WOW Burning Crusade</option>
+                <option value="https://www.youtube.com/watch?v=1m7eB0Hxqf8&ab_channel=WorldofWarcraft">WOW Lich King </option>
+                <option value="https://www.youtube.com/watch?v=wvYXoyxLv64&ab_channel=WorldofWarcraft">WOW Mist Of Pandaria </option>
+                <option value="https://www.youtube.com/watch?v=s4gBChg6AII&ab_channel=WorldofWarcraft">Shadow lands</option>
+               </select>
         </nav>
 
     </header>
@@ -84,7 +91,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./JS/Main.js"></script>
-
+    
 </body>
 
 </html>
