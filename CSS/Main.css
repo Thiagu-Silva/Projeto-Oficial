@@ -3,6 +3,10 @@ html body {
 
 }
 
+.body-2 {
+    margin-left: 2%;
+}
+
 /* Mobile */
 @media only screen and (max-width: 480px) {
     .paginas nav {
@@ -177,11 +181,11 @@ li.slick-active button {
 
 .quem-somos {
     width: 99%;
-    height: 550px;
+    height: 665px;
     background-image: url(../IMG/quem-somos.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    border-radius: 1%;
+    border-radius: 3%;
     margin-left: 5px
 }
 
@@ -198,19 +202,21 @@ li.slick-active button {
 .quem-somos .texto-1 p {
     font-size: 25px;
     font-style: normal;
-    color: #ffffff;
+    color: #551a8b;
     text-align: center;
     font-weight: 700;
     font-family: cursive;
+    padding-top: 4%;
 }
 
 .quem-somos .texto-2 p {
     font-size: 25px;
     font-style: normal;
-    color: #ffffff;
+    color: #6F0100;
     text-align: center;
     font-weight: 700;
     font-family: cursive;
+    padding-top: 4%;
 }
 
 .texto {
@@ -324,6 +330,18 @@ li.slick-active button {
     font-family: cursive;
 }
 
+.rede-sociais ul li {
+    margin-left: 13px;
+    display: inline-block;
+
+}
+
+.rede-sociais {
+    width: 20%;
+    float: right;
+    padding-top: 11%;
+}
+
 .direitos {
     width: 36%;
     height: 200px;
@@ -364,7 +382,7 @@ li.slick-active button {
 .baixar h1 {
     text-align: center;
     padding-top: 1%;
-    color: goldenrod;
+    color: #f7f582;
     font-size: 44px;
 }
 
@@ -407,6 +425,7 @@ li.slick-active button {
     width: 100%;
     height: 100%;
     border-radius: 3%;
+    border: 1px solid #d37412;
 }
 
 .wow-burning {
@@ -442,6 +461,7 @@ li.slick-active button {
     width: 100%;
     height: 100%;
     border-radius: 3%;
+    border: 1px solid #a8ee12;
 }
 
 .seçao-2 {
@@ -484,6 +504,7 @@ li.slick-active button {
     width: 100%;
     height: 100%;
     border-radius: 3%;
+    border: 1px solid #2beafc;
 }
 
 .wow-mop {
@@ -520,6 +541,7 @@ li.slick-active button {
     width: 100%;
     height: 100%;
     border-radius: 3%;
+    border: 1px solid #624315
 }
 
 .direitos-2 {
@@ -534,3 +556,169 @@ li.slick-active button {
     color: white;
     padding-top: 32%;
 }
+
+/* classe */
+
+.logo-3 {
+    width: 98%;
+    height: 190px;
+    background-color: #080808;
+    border: 1px solid #080808;
+    /* animation: mymove 10s infinite; */
+    margin: 10px;
+    display: flex;
+}
+
+.wow-3 {
+    width: 33%;
+    height: 190px;
+    padding-right: 15%;
+    margin-left: 2%;
+}
+
+.wow-3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+
+.wow-4 {
+    width: 33%;
+    height: 190px;
+    padding-left: 15%;
+}
+
+.wow-4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+
+.spec {
+    width: 98%;
+    height: 319px;
+    background-image: url(../IMG/classes.png);
+}
+
+.spec img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+
+.classe-geral {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wow-classes {
+    width: 632px;
+    height: 213px;
+    padding-right: 2%;
+    margin-left: 2px;
+}
+
+.wow-classes img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+/* cadastro */
+
+.banner-3 {
+    width: 99% !important;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    border-left: 5px solid black;
+
+}
+
+.banner-3 img {
+    width: 100%;
+    height: 300px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding: 23px 47px;
+    background: #080808;
+}
+
+.formulario form {
+    background: #080808;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 5px solid #080808;
+}
+
+.formulario .todos {
+    padding: 10px 38px;
+}
+
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.formulario label {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: white;
+}
+
+.formulario .todos .texto-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario button {
+    background: #ffffff;
+    border: 1px solid black;
+}
+
+.formulario form h1 {
+    text-align: center;
+    background: #551a8b;
+    color: white;
+    margin: 0;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+
+.formulario .campo input {
+    height: 20px;
+}
+
+#Ogenero {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.formulario .campo select {
+    height: 30px;
+}
+
+h4{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.promocao{
+    padding-right: 9%;
+    padding-top: 5%;
+}
+
