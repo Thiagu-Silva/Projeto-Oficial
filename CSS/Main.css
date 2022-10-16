@@ -193,28 +193,28 @@ li.slick-active button {
     width: 300px;
     height: 300px;
     border: 3px solid #d37412;
-    border-radius: 3px;
+    border-radius: 20px;
 }
 
 .foto-link-1 {
     width: 300px;
     height: 300px;
     border: 1px solid #a8ee12;
-    border-radius: 3px;
+    border-radius: 20px;
 }
 
 .foto-link-2 {
     width: 300px;
     height: 300px;
     border: 3px solid #2beafc;
-    border-radius: 3px;
+    border-radius: 20px;
 }
 
 .foto-link-3 {
     width: 300px;
     height: 300px;
     border: 3px solid #624315;
-    border-radius: 3px;
+    border-radius: 20px;
 }
 
 .quem-somos {
