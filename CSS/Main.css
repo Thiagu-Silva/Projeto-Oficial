@@ -1,10 +1,12 @@
 html body {
-    background-color: #080808;
+    background-color: #000;
 
 }
 
 .body-2 {
     margin-left: 2%;
+    background-color: #000;
+
 }
 
 /* Mobile */
@@ -111,7 +113,7 @@ html body {
 
 select {
     text-align: center;
-    background-color: #080808;
+    background-color: #000;
     color: #551a8b;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
@@ -167,7 +169,7 @@ button.slick-next {
 
 .slick-dots li button {
     font-size: 0px;
-    border: 4px solid #080808;
+    border: 4px solid #000;
     border-radius: 50%;
     width: 15px;
     height: 15px;
@@ -177,6 +179,42 @@ button.slick-next {
 
 li.slick-active button {
     background-color: #000;
+}
+
+.move-download {
+    display: flex;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-right: 1%;
+    justify-content: space-between;
+}
+
+.foto-link {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #d37412;
+    border-radius: 3px;
+}
+
+.foto-link-1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #a8ee12;
+    border-radius: 3px;
+}
+
+.foto-link-2 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #2beafc;
+    border-radius: 3px;
+}
+
+.foto-link-3 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #624315;
+    border-radius: 3px;
 }
 
 .quem-somos {
@@ -345,7 +383,7 @@ li.slick-active button {
 .direitos {
     width: 36%;
     height: 200px;
-    background-color: #080808;
+    background-color: #000;
     text-align: center;
     margin-left: 33%;
 }
@@ -547,7 +585,7 @@ li.slick-active button {
 .direitos-2 {
     width: 36%;
     height: 200px;
-    background-color: #080808;
+    background-color: #000;
     text-align: center;
     margin-left: 33%;
 }
@@ -562,8 +600,8 @@ li.slick-active button {
 .logo-3 {
     width: 98%;
     height: 190px;
-    background-color: #080808;
-    border: 1px solid #080808;
+    background-color: #000;
+    border: 1px solid #000;
     /* animation: mymove 10s infinite; */
     margin: 10px;
     display: flex;
@@ -646,15 +684,15 @@ li.slick-active button {
     display: flex;
     justify-content: center;
     padding: 23px 47px;
-    background: #080808;
+    background: #000;
 }
 
 .formulario form {
-    background: #080808;
+    background: #000;
     display: flex;
     flex-direction: column;
     width: 400px;
-    border: 5px solid #080808;
+    border: 5px solid #000;
 }
 
 .formulario .todos {
@@ -711,14 +749,54 @@ li.slick-active button {
     height: 30px;
 }
 
-h4{
+h4 {
     color: #ffffff;
     font-size: 18px;
     font-family: cursive;
 }
 
-.promocao{
+.promocao {
     padding-right: 9%;
     padding-top: 5%;
 }
 
+/* Forum */
+
+.respostas {
+    display: none;
+    margin: 0 10px;
+}
+
+.container h2 {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    color: #6F0100;
+}
+
+.container h3 {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+.thread {
+    padding: 10px;
+    border: 1px dashed #000;
+}
+
+.respostas p {
+    font-size: 18px;
+    color: #2beafc;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000;
+}

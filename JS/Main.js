@@ -17,3 +17,4 @@ $('.banner-3').slick({
     autoplay: true,
     autoplayspeed: 2500
 });
+

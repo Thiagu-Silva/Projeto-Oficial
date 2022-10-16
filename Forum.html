@@ -1,18 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/Main.css">
+    <link rel="icon" href="./IMG/wowhead.jpg">
     <title> Forum </title>
 
 </head>
+
 <body>
-    <h1>Temporariamente Fora Do Ar, Desculpe o transtorno</h1>
-    <h2>estamos trabalhando para melhor atende-los</h2>
-    <br>
-    <br>
-    <br>
-    <h1>Bom Jogo e Divirta-se!</h1>
+    <header class="logo">
+        <div class="wow-logo">
+            <img src="./IMG/wow-logo.jpg" alt="">
+        </div>
+
+    </header>
+    <header class="paginas">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./download.html">Download</a>
+            <a href="./classes.html">Classes</a>
+            <a href="./Forum.html">Forum</a>
+            <a href="./cadastro.html">Cadastre-se</a>
+            <select onchange="location.href=this.value">
+                <option value="#"> Cinematics </option>
+                <option value="https://www.youtube.com/watch?v=vlVSJ0AvZe0&ab_channel=WorldofWarcraft"> Classic
+                </option>
+                <option value="https://www.youtube.com/watch?v=IBHL_-biMrQ&ab_channel=WorldofWarcraft"> Burning .C
+                </option>
+                <option value="https://www.youtube.com/watch?v=1m7eB0Hxqf8&ab_channel=WorldofWarcraft"> Lich King
+                </option>
+                <option value="https://www.youtube.com/watch?v=wvYXoyxLv64&ab_channel=WorldofWarcraft">M.o.Pandaria
+                </option>
+                <option value="https://www.youtube.com/watch?v=s4gBChg6AII&ab_channel=WorldofWarcraft"> Shadow lands
+                </option>
+            </select>
+        </nav>
+
+    </header>
+    <div class="container ">
+        <h2> WoW Forum , tire todas as suas duvidas aqui! ...Compartilhe suas experiencias.</h2>
+        <div class="thread">
+            <h3 class="forum-1">
+                Voce Esta Curtindo nossa ultima Expansao? <button>Comentarios
+
+                </button>
+            </h3>
+            <div class="respostas">
+                <p>sim ,da pra jogar mais poderia ter mais opçoes de montarias</p>
+                <hr>
+                <p>odeio esse jogo</p>
+                <hr>
+                <p>olha , ate que ta melhor que as ooutras mais ainda sim ta faltando alguma coisa</p>
+                <hr>
+                <form action="">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" name="acao" value="Enviar!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        
+        <div class="thread">
+            <h3 class="forum-1">
+                Eii Alguem ai joga de Rogue? <button>Comentarios
+
+                </button>
+            </h3>
+            <div class="respostas">
+                <p>estou tentando upar minha arvore de talentos mais nao sei por onde começar , alguem pode ajudar?</p>
+                <hr>
+                <p>Mano , eu ate ajudo , qual a sua spec?</p>
+                <hr>
+                <p>sou Assasin</p>
+                <hr>
+                <form action="">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" name="acao" value="Enviar!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        
+        <div class="thread">
+            <h3 class="forum-1">
+                Alguem querendo comprar minha conta? ^^ <button>Comentarios
+
+                </button>
+            </h3>
+            <div class="respostas">
+                <p>s</p>
+                <hr>
+                <p>quanto?</p>
+                <hr>
+                <p>sai noia</p>
+                <hr>
+                <form action="">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" name="acao" value="Enviar!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+       
+        <div class="thread">
+            <h3 class="forum-1">
+                Qual Profissao Esta Compensando mais ? <button>Comentarios
+
+                </button>
+            </h3>
+            <div class="respostas">
+                <p>alchemy</p>
+                <hr>
+                <p>brother depende muito</p>
+                <hr>
+                <p>cara, eu ganho grana vendendo apenas os reagentes, ou seja soh upei mining e herbalism</p>
+                <hr>
+                <form action="">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" name="acao" value="Enviar!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        let buttonsResposta = document.querySelectorAll('.thread button');
+
+for (let i = 0; i < buttonsResposta.length; i++){
+    buttonsResposta[i].addEventListener('click', ()=> {
+        let respostas = document.querySelectorAll('.respostas');
+        respostas[i].style.display = "block";
+    })
+}
+
+let forms = document.querySelectorAll('form');
+for (let i = 0; i < forms.length; i++) {
+    forms[i].addEventListener('submit', (e) => {
+        e.preventDefault();
+        let conteudo = document.querySelectorAll('textarea')[i];
+        forms[i].insertAdjacentHTML('beforebegin', '<p>' + conteudo.value + '</p>')
+        conteudo.value = "";
+    })
+}
+
+    </script>
 </body>
+
 </html>
