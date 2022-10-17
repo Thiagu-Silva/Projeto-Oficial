@@ -10,54 +10,6 @@ html body {
 }
 
 /* Mobile */
-@media only screen and (max-width: 480px) {
-    .paginas nav {
-        padding: 0px;
-    }
-
-    .banner {
-        margin-top: 4%;
-        height: 430px;
-    }
-
-    .quem-somos {
-        padding-bottom: 38%;
-    }
-
-    .texto {
-        width: 70%;
-    }
-
-    .texto-1 {
-        padding-right: 2%;
-    }
-
-    .final-home {
-        margin-left: 0%;
-        padding: 2%;
-    }
-
-    .final-home .tipo-1 {
-        width: 141px;
-        height: 100px;
-        border: 1px solid rgb(128, 122, 122);
-        border-radius: 10%;
-    }
-
-    .final-home .tipo-2 {
-        width: 141px;
-        height: 100px;
-        border: 1px solid rgb(128, 122, 122);
-        border-radius: 10%;
-    }
-
-    .final-home .tipo-3 {
-        width: 141px;
-        height: 100px;
-        border: 1px solid rgb(128, 122, 122);
-        border-radius: 10%;
-    }
-}
 
 /* Desk */
 .logo {
@@ -667,6 +619,28 @@ li.slick-active button {
     border: 1px solid white;
 }
 
+.geral-classes{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.h1-classe{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.h3-classe{
+    text-align: center;
+}
+
+
+
+
+
+
+
 /* cadastro */
 
 .banner-3 {
@@ -738,6 +712,7 @@ li.slick-active button {
 
 .formulario .campo input {
     height: 20px;
+    margin-top: 7%;
 }
 
 #Ogenero {
@@ -748,8 +723,9 @@ li.slick-active button {
     padding: 0px 2px 1px;
 }
 
-.formulario .campo select {
-    height: 30px;
+.sexo{
+    color: #ffffff;
+    background-color: #000;
 }
 
 h4 {
@@ -802,4 +778,53 @@ textarea {
     width: 100%;
     height: 40px;
     border: 1px solid #000;
+}
+
+@media only screen and (max-width: 480px) {
+    .paginas nav {
+        padding: 0px;
+    }
+
+    .banner {
+        margin-top: 4%;
+        height: 430px;
+    }
+
+    .quem-somos {
+        padding-bottom: 38%;
+    }
+
+    .texto {
+        width: 70%;
+    }
+
+    .texto-1 {
+        padding-right: 2%;
+    }
+
+    .final-home {
+        margin-left: 0%;
+        padding: 2%;
+    }
+
+    .final-home .tipo-1 {
+        width: 141px;
+        height: 100px;
+        border: 1px solid rgb(128, 122, 122);
+        border-radius: 10%;
+    }
+
+    .final-home .tipo-2 {
+        width: 141px;
+        height: 100px;
+        border: 1px solid rgb(128, 122, 122);
+        border-radius: 10%;
+    }
+
+    .final-home .tipo-3 {
+        width: 141px;
+        height: 100px;
+        border: 1px solid rgb(128, 122, 122);
+        border-radius: 10%;
+    }
 }
