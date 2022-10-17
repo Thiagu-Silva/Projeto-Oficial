@@ -309,6 +309,7 @@ li.slick-active button {
     height: 250px;
     border: 4px solid rgb(128, 122, 122);
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .final-home .tipo-2 img {
@@ -316,6 +317,7 @@ li.slick-active button {
     height: 250px;
     border: 4px solid rgb(128, 122, 122);
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .final-home .tipo-3 img {
@@ -323,6 +325,7 @@ li.slick-active button {
     height: 250px;
     border: 4px solid rgb(128, 122, 122);
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .final-home .tipo-1 img:hover {
