@@ -619,21 +619,46 @@ li.slick-active button {
     border: 1px solid white;
 }
 
-.geral-classes{
+.geral-classes {
     width: 100%;
     height: auto;
+    margin-top: 6%;
+}
+
+.h1-classe {
+    text-align: center;
+    font-family: sans-serif;
+    color: #f7f582;
+}
+
+.h3-classe {
+    text-align: center;
+    color: #f7f582;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 100%;
+    height: 500px;
     display: flex;
 }
 
-.h1-classe{
+.texto-class {
+    width: 33%;
+    height: auto;
     text-align: center;
-    font-family: sans-serif;
-    color: white;
 }
 
-.h3-classe{
-    text-align: center;
+.imagem-class {
+    width: 33%;
+    height: auto;
 }
+
+.imagem-class img {
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
@@ -723,7 +748,7 @@ li.slick-active button {
     padding: 0px 2px 1px;
 }
 
-.sexo{
+.sexo {
     color: #ffffff;
     background-color: #000;
 }
