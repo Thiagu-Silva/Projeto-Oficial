@@ -9,8 +9,6 @@ html body {
 
 }
 
-/* Mobile */
-
 /* Desk */
 .logo {
     width: 98%;
@@ -89,7 +87,9 @@ select {
     height: 500px;
     overflow: hidden;
     border-left: 5px solid black;
-
+    cursor: pointer;
+    border-bottom: 3px solid gray;
+    border-radius: 4%;
 }
 
 .banner img {
@@ -193,21 +193,26 @@ li.slick-active button {
 .quem-somos .texto-1 p {
     font-size: 25px;
     font-style: normal;
-    color: #e0aa20;
+    color: #111b93fc;
     text-align: center;
     font-weight: 700;
     font-family: cursive;
     padding-top: 4%;
+    background-image: linear-gradient(108deg, #ede6e6a6, transparent);
+    border-radius: 11%;
 }
 
 .quem-somos .texto-2 p {
     font-size: 25px;
     font-style: normal;
-    color: #e0aa20;
+    color: #8dab0f;
     text-align: center;
     font-weight: 700;
     font-family: cursive;
     padding-top: 4%;
+    background-image: linear-gradient(222deg, #ede6e6a6, transparent);
+    border-radius: 11%;
+
 }
 
 .texto {
@@ -220,7 +225,7 @@ li.slick-active button {
     height: 400px;
     width: 232px;
     margin-left: 10%;
-    padding-right: 30%;
+    padding-right: 24%;
 }
 
 .texto-2 {
@@ -232,30 +237,31 @@ li.slick-active button {
 .final-home {
     width: 86%;
     height: 300px;
-    background-color: #000;
+    background-color: #222121;
     display: flex;
     margin-left: 0%;
     padding: 7%;
+    margin-top: 2%;
 }
 
 .final-home .tipo-1 {
     width: 300px;
     height: 300px;
-    background-color: #000;
+    background-color: #222121;
     padding-right: 11%;
 }
 
 .final-home .tipo-2 {
     width: 300px;
     height: 300px;
-    background-color: #000;
+    background-color: #222121;
     padding-right: 11%;
 }
 
 .final-home .tipo-3 {
     width: 300px;
     height: 300px;
-    background-color: #000;
+    background-color: #222121;
 }
 
 .final-home .tipo-1 img {
@@ -329,6 +335,10 @@ li.slick-active button {
     margin-left: 13px;
     display: inline-block;
 
+}
+
+.rede-sociais li{
+    cursor: pointer;
 }
 
 .rede-sociais {
@@ -633,12 +643,12 @@ li.slick-active button {
     color: #f7f582;
 }
 
-.h2-classe{
+.h2-classe {
     text-align: center;
     color: #f7f582;
     font-family: sans-serif;
     font-size: 20px;
-    
+
 }
 
 .h3-classe {
@@ -647,7 +657,7 @@ li.slick-active button {
     font-family: sans-serif;
 }
 
-.texto-class p{
+.texto-class p {
     color: #000;
     font-size: 24px;
 }
@@ -676,13 +686,6 @@ li.slick-active button {
     height: 100%;
     border-radius: 5%;
 }
-
-
-
-
-
-
-
 
 /* cadastro */
 
@@ -823,6 +826,8 @@ textarea {
     border: 1px solid #000;
 }
 
+
+/* Mobile */
 @media only screen and (max-width: 480px) {
     .paginas nav {
         padding: 0px;
